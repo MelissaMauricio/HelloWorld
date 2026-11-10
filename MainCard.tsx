@@ -16,14 +16,17 @@ const MainCard = ({ loading }: MainCardProps) => {
 
 const styles = StyleSheet.create({
   card: {
-    backgroundColor: '#f0f0f0',
+    backgroundColor: '#ff4fa3',
     padding: 24,
-    borderRadius: 12,
-    marginVertical: 20,
+    borderRadius: 16,
+    marginVertical: 24,
+    borderWidth: 3,
+    borderColor: '#ffffff',
   },
   text: {
-    fontSize: 20,
-    fontWeight: '600',
+    fontSize: 22,
+    fontWeight: '700',
+    color: '#000000',
   },
 });
 

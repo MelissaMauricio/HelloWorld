@@ -18,6 +18,7 @@ export default function App() {
 
       <Button
         title={isLoading ? 'Mostrar' : 'Cargar'}
+        color="#ff4fa3"
         onPress={() => setIsLoading(!isLoading)}
       />
     </View>
@@ -27,12 +28,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#000000',
     alignItems: 'center',
     justifyContent: 'center',
   },
   title: {
-    fontSize: 22,
+    fontSize: 24,
     fontWeight: 'bold',
+    color: '#ff4fa3',
+    textAlign: 'center',
   },
 });
